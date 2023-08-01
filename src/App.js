@@ -1,5 +1,5 @@
 import ImagemBackground from './ImagemBackgroundNaruto.jpg';
-import About from './pages/About';
+import Home from './pages/home/home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -8,10 +8,10 @@ function App() {
       <div style={styles.content}>
       <BrowserRouter>
           <Routes>
-            <Route path='/' element={<About/>}/>
-            <Route path='/AnimeList' element={<About/>}/>
-            <Route path='/Manga' element={<About/>}/>  
-            <Route path='/Community' element={<About/>}/>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/AnimeList' element={<Home/>}/>
+            <Route path='/Manga' element={<Home/>}/>  
+            <Route path='/Community' element={<Home/>}/>
           </Routes>
         </BrowserRouter>
       </div>

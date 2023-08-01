@@ -7,7 +7,7 @@ function NavBar() {
       <nav  style={styles.NavBar}>
         <ul style={styles.ul}>
           <li style={styles.li}>
-            <Link to='/'style={styles.a}>About</Link>
+            <Link to='/'style={styles.a}>Home</Link>
           </li>
           <li style={styles.li}>
             <Link to='/AnimeList'style={styles.a}>Anime List</Link>
@@ -26,12 +26,11 @@ function NavBar() {
 const styles = {
   NavBar:{
     position: 'relative',
-    top: '20px',
+    top: '30px',
   },
   ul: {
     paddingLeft: '0',
     display: 'flex',
-    top: '10px',
     listStyle:'none',
     justifyContent: 'space-around',
   },
