@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header style={styles.header}>
-        <h1 style={styles.icon} className='icon'><strong style={styles.txtColor}>NIME</strong><br/>STORY</h1>
+        <h1 style={styles.iconNameLogo} className='iconNameLogo'><strong style={styles.txtColor}>NIME</strong><br/>STORY</h1>
         <img className='headerImgCharacters' src={characters} alt="characters"/>
         <div className='cardInfo' style={styles.cardInfo}>
             <h1>KNOW ALL THE STORIES OF THE BEST ANIMES WITH <strong style={styles.txtColor}>NIME</strong>STORY</h1>
@@ -18,19 +18,6 @@ function Header() {
 const styles = {
     header:{
         display: 'flex',
-    },
-    cardInfo:{
-        position: 'relative',
-        top: '160px',
-        display: 'inline',
-        width: '450px',
-        left: '55%',
-        fontFamily: "'REM', sans-serif",
-    },
-    icon:{
-        position: 'absolute',
-        top: '-15px',
-        left: '30px',
     },
     a:{
         textDecoration: 'none',

@@ -5,9 +5,61 @@
     position: fixed;
     background-size: cover;
 }
+.cardInfo{
+    position: relative;
+    top: 160px;
+    display: inline;
+    width: 450px;
+    left: 55%;
+    font-family: 'REM', sans-serif;
+}
+.iconNameLogo{
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    display: inline;
+    line-height:1;
+}
 @media screen and (max-width:1000px) {
     .headerImgCharacters{
         width: 800px;
         left: -200px;
+    }
+    .cardInfo{
+        font-size:15px;
+        width: 400px;
+        left: 45%;
+    }
+}
+@media screen and (max-width:770px) {
+    .iconNameLogo{
+        left: 44%;
+        top: 50px;
+    }
+    .cardInfo{
+        top: 130px;
+        left: 20%;
+    }
+    .headerImgCharacters{
+        width: 600px;
+        left: 0;
+    }
+}
+@media screen and (max-width:550px) {
+    .cardInfo{
+        font-size:10px;
+        width: 300px;
+    }
+    .headerImgCharacters{
+        width: 600px;
+        left: -100px;
+    }
+}
+@media screen and (max-width:380px) {
+    .cardInfo{
+        width: 260px;
+    }
+    .headerImgCharacters{
+        width: 550px;
     }
 }
