@@ -1,0 +1,9 @@
+.ContainerNavBar{
+    width: 700px;
+    margin-left: auto;
+}
+@media screen and (max-width:770px) {
+    .ContainerNavBar{
+        width: 100%;
+    }
+}
