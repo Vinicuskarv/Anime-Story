@@ -14,31 +14,37 @@ function Header() {
           foto = {Haikuu}
           titulo = "Haikuu"
           paragrafo = "Shouyou Hinata assiste a um jogo da Escola Karasuno no campeonato nacional de vôlei e fica fascinado pelo esporte."
+          episodios = "Episódios: 60"
         />
         <Card
           foto = {BokuHeroAcademia}
           titulo = "Boku no Hero Academia"
           paragrafo = "É um mundo onde 80% da população mundial possuem super poderes."
+          episodios = "Episódios: 113"
         />
         <Card
           foto = {DemonSlayer}
           titulo = "Kimetsu no Yaiba"
           paragrafo = "Tanjirō Kamado, um garoto bondoso e inteligente que vive junto com sua mãe e seus irmãos."
+          episodios = "Episódios: 45 ,Filme: 1"
         />
         <Card
           foto = {FamiliaForger}
           titulo = "Spy x Family"
           paragrafo = "Participantes são colocados no papel de um agente recém-chegado da agência de espionagem do universo WISE."
+          episodios = "Episódios: 25"
         />
         <Card
           foto = {AttackTitan}
           titulo = "Shingeki no Kyojin"
           paragrafo = "Eren Yeager é um menino que mora na cidade de Shiganshina, localizada na extremidade de três paredes circulares que protegem seus habitantes dos Titãs."
+          episodios = "Episódios: 88"
         />
         <Card
           foto = {JujutsuKaisen}
           titulo = "jujutsu kaisen"
           paragrafo = "Yuuji engole o dedo para proteger Megumi e seus amigos e se torna o anfitrião de Sukuna, uma poderosa Maldição."
+          episodios = "Episódios: 26 ,Filme: 1"
         />
     </div>
   );

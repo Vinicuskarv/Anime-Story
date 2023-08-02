@@ -1,5 +1,6 @@
 import NavBar from '../../components/navbar';
 import Header from './header';
+
 function AnimeList() {
   return (
     <div>
