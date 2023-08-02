@@ -1,0 +1,37 @@
+.ContainerCard {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 30px;
+}
+.ContainerCardimg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.ContainerCard::before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.381); 
+    pointer-events: none;
+}
+.InfoCard{
+    position:absolute;
+    bottom: 0;
+    color: rgb(254, 254, 254);
+    padding: 10px;
+}
+.scroll-container{
+    position: relative;
+    top: 100px;
+    display: flex;
+}
