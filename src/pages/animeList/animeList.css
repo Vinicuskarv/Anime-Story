@@ -1,10 +1,11 @@
 .ContainerCard {
     position: relative;
     display: inline-block;
-    width: 250px;
-    height: 300px;
-    margin: 10px;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 20px !important;
     border-radius: 30px;
+    margin: auto;
 }
 .ContainerCardimg{
     width: 100%;
@@ -23,6 +24,9 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.381); 
     pointer-events: none;
+}
+.row{
+    --bs-gutter-x: 0;
 }
 .InfoCard{
     position:absolute;
