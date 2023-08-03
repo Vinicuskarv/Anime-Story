@@ -1,0 +1,54 @@
+.centralizado {
+    position: fixed !important;
+    display: flex !important;
+    width: 600px !important;
+    height: 400px !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: rgba(216, 38, 38, 0.934);
+  }
+.centralizado .ContainerCardInfoLAteral{
+    width: 300px;
+    padding: 10px;
+    display: inline;
+    color: rgb(254, 254, 254);
+}
+.centralizado .IconsCloseX{
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgba(232, 13, 13, 0.304);
+}
+.centralizado .IconsCloseX:hover{
+    background-color: rgb(232, 13, 13);
+}
+.ContainerCardInfoLAteral{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .centralizado {
+        display: inline !important;
+        width: 350px !important;
+        height: 600px !important;
+        top: 50%;
+    }
+    .centralizado .ContainerCardimg{
+        height: 400px !important;
+    }
+    .centralizado .InfoCard{
+        top: 0;
+    }
+    .centralizado .ContainerCardInfoLAteral h2 ,.centralizado .ContainerCardInfoLAteral p{
+        padding: 0 10px;
+    }
+    .centralizado .IconsCloseX{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}

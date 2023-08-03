@@ -1,4 +1,4 @@
-import '../components/master.css'
+import '../components/navbar.css'
 import { Link } from 'react-router-dom';
 
 function NavBar() {
@@ -13,10 +13,10 @@ function NavBar() {
             <Link to='/AnimeList'style={styles.a}>Anime List</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/Manga'style={styles.a}>Manga</Link>
+            <Link to='/Manga'style={styles.a}>News</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/Community'style={styles.a}>Community</Link>
+            <Link to='/Contacto'style={styles.a}>Contacto</Link>
           </li>
         </ul>
       </nav>

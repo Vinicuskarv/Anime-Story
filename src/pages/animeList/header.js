@@ -4,6 +4,9 @@ import DemonSlayer from '../../components/img/DemonSlayer.jpg';
 import FamiliaForger from '../../components/img/FamíliaForger.jpg';
 import AttackTitan from '../../components/img/AttackTitan.jpg';
 import JujutsuKaisen from '../../components/img/JujutsuKaisen.jpg'
+import HunterHunter from '../../components/img/HunterHunter.jpg'
+import Naruto from '../../components/img/Naruto.jpg'
+
 import Card from '../../components/Card'
 import './animeList.css';
 
@@ -46,8 +49,21 @@ function Header() {
           paragrafo = "Yuuji engole o dedo para proteger Megumi e seus amigos e se torna o anfitrião de Sukuna, uma poderosa Maldição."
           episodios = "Episódios: 26 ,Filme: 1"
         />
+        <Card
+          foto = {HunterHunter}
+          titulo = "Hunter x Hunter"
+          paragrafo = "Gon decide sair de casa e entrar no Exame Hunter, que tem uma série de desafios que buscam testar suas habilidades."
+          episodios = "Episódios: 148, Filmes: 2"
+        />
+        <Card
+          foto = {Naruto}
+          titulo = "Naruto"
+          paragrafo = "Naruto luta por seu sonho de se tornar o líder máximo de sua aldeia (Hokage) e ser reconhecido como alguém importante."
+          episodios = "Episódios: 770, Filmes: 11"
+        />
     </div>
   );
 }
+
 
 export default Header;

@@ -13,13 +13,7 @@
     left: 55%;
     font-family: 'REM', sans-serif;
 }
-.iconNameLogo{
-    position: absolute;
-    top: -15px;
-    left: 30px;
-    display: inline;
-    line-height:1;
-}
+
 @media screen and (max-width:1000px) {
     .headerImgCharacters{
         width: 800px;
@@ -28,17 +22,13 @@
     .cardInfo{
         font-size:15px;
         width: 400px;
-        left: 45%;
+        left: 40%;
     }
 }
 @media screen and (max-width:770px) {
-    .iconNameLogo{
-        left: 44%;
-        top: 50px;
-    }
     .cardInfo{
         top: 130px;
-        left: 20%;
+        left:20%;
     }
     .headerImgCharacters{
         width: 600px;
@@ -49,6 +39,7 @@
     .cardInfo{
         font-size:10px;
         width: 300px;
+        left:15%;
     }
     .headerImgCharacters{
         width: 600px;
@@ -58,6 +49,7 @@
 @media screen and (max-width:380px) {
     .cardInfo{
         width: 260px;
+        left:10%;
     }
     .headerImgCharacters{
         width: 550px;

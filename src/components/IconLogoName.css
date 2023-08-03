@@ -1,0 +1,15 @@
+.iconNameLogo{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    display: inline;
+    line-height:1;
+}
+@media screen and (max-width:780px) {
+    .iconNameLogo{
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

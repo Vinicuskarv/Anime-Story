@@ -1,6 +1,7 @@
 import ImagemBackground from './ImagemBackgroundNaruto.jpg';
-import Home from './pages/home/home';
-import AnimeList from './pages/animeList/animelist';
+import Home from './pages/Home/PageHome';
+import AnimeList from './pages/AnimeList/PageAnimelist';
+import Contacto from './pages/Contacto/PageContacto';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/AnimeList' element={<AnimeList/>}/>
             <Route path='/Manga' element={<Home/>}/>  
-            <Route path='/Community' element={<Home/>}/>
+            <Route path='/Contacto' element={<Contacto/>}/>
           </Routes>
         </BrowserRouter>
       </div>

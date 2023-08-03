@@ -1,0 +1,19 @@
+.KeigoTakamiImg{
+    position: relative;
+    height: 570px;
+    left: 90px;
+}
+.Container{
+    display: flex;
+}
+.CampoInfoContacto{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.235);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgba(112, 112, 112, 0.411),5px 5px 10px rgba(112, 112, 112, 0.411);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

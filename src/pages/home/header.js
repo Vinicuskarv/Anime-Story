@@ -1,12 +1,10 @@
 import characters from '../../components/img/ImgPng/CharactersGroup.png';
-import '../../components/master.css';
 import './home.css'
 import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header style={styles.header}>
-        <h1 style={styles.iconNameLogo} className='iconNameLogo'><strong style={styles.txtColor}>NIME</strong><br/>STORY</h1>
         <img className='headerImgCharacters' src={characters} alt="characters"/>
         <div className='cardInfo' style={styles.cardInfo}>
             <h1>KNOW ALL THE STORIES OF THE BEST ANIMES WITH <strong style={styles.txtColor}>NIME</strong>STORY</h1>

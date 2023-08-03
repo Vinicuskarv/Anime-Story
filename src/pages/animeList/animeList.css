@@ -45,24 +45,3 @@
     top: 100px;
     display: flex;
 }
-.centralizado {
-    position: fixed;
-    display: flex !important;
-    width: 600px !important;
-    height: 400px !important;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    background-color: rgb(151, 55, 38);
-    color: rgb(255, 255, 255);
-  }
-.centralizado .ContainerCardInfoLAteral{
-    width: 300px;
-    padding: 10px;
-    display: inline;
-
-}
-.ContainerCardInfoLAteral{
-    display: none;
-}

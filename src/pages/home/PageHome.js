@@ -1,11 +1,12 @@
 import NavBar from '../../components/navbar';
-import Header from '../home/header';
-
+import Header from '../Home/header';
+import IconNameLogo from '../../components/IconLogoName';
 function Home() {
   return (
     <div>
         <NavBar/>
         <Header/>
+        <IconNameLogo/>
     </div>
   );
 }

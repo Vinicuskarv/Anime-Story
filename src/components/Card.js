@@ -1,45 +1,61 @@
 import React, { useRef, useEffect } from 'react';
+import IconsCloseX from '../components/img/ImgPng/CloseX.png';
+import './Card.css';
 
+function Card({ foto, paragrafo, titulo, episodios }) {
+  const minhaDivRef = useRef(null);
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      const minhaDiv = minhaDivRef.current;
+      if (minhaDiv && !minhaDiv.contains(event.target)) {
+        minhaDiv.classList.remove('centralizado');
+      }
+    };
 
-function Card({foto, paragrafo, titulo, episodios}) {
-    const minhaDivRef = useRef(null);
+    document.body.addEventListener('click', handleClickOutside);
 
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-          const minhaDiv = minhaDivRef.current;
-          if (minhaDiv && !minhaDiv.contains(event.target)) {
-            minhaDiv.classList.remove('centralizado');
-          }
-        };
-    
-        document.body.addEventListener('click', handleClickOutside);
-    
-        return () => {
-          document.body.removeEventListener('click', handleClickOutside);
-        };
-    }, []);
+    return () => {
+      document.body.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
-    const AbrirDivInfo = () => {
-        const minhaDiv = minhaDivRef.current;
-        if (minhaDiv) {
-            minhaDiv.classList.add('centralizado');
-        }
-      };
-    return (
-        <div className='ContainerCard' ref={minhaDivRef} onClick={AbrirDivInfo}>
-            <span>
-                <img className='ContainerCardimg' src={foto} alt={titulo}></img>
-                <div className='InfoCard'>
-                    <h2>{titulo}</h2>
-                    <p>{episodios}</p>
-                </div>
-            </span>
-            <div className='ContainerCardInfoLAteral'>
-                <h2>{titulo}</h2>
-                <p>{paragrafo}</p>
-            </div>
+  const AbrirDivInfo = () => {
+    const minhaDiv = minhaDivRef.current;
+    if (minhaDiv) {
+      minhaDiv.classList.add('centralizado');
+    }
+  };
+
+  const handleIconCloseClick = (event) => {
+    const minhaDiv = minhaDivRef.current;
+    if (minhaDiv) {
+      minhaDiv.classList.remove('centralizado');
+    }
+    event.stopPropagation();
+  };
+
+  return (
+    <div className='ContainerCard' ref={minhaDivRef} onClick={AbrirDivInfo}>
+      <span>
+        <img className='ContainerCardimg' src={foto} alt={titulo} />
+        <div className='InfoCard'>
+          <h2>{titulo}</h2>
+          <p>{episodios}</p>
         </div>
-    );
+      </span>
+      <div className='ContainerCardInfoLAteral'>
+        <img
+          className='IconsCloseX'
+          src={IconsCloseX}
+          alt="Icons X Close"
+          onClick={handleIconCloseClick}
+        />
+        <h2>{titulo}</h2>
+        <p>{paragrafo}</p>
+      </div>
+    </div>
+  );
 }
-export default Card
+
+export default Card;
