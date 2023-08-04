@@ -2,13 +2,14 @@ import NavBar from '../../components/navbar';
 import IconNameLogo from '../../components/IconLogoName';
 import Header from './header';
 
-function Contacto() {
+function News() {
   return (
     <div>
         <NavBar/>
         <IconNameLogo/>
         <Header/>
     </div>
+
   );
 }
-export default Contacto;
+export default News;

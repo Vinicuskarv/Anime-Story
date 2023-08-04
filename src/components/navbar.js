@@ -7,16 +7,16 @@ function NavBar() {
       <nav  style={styles.NavBar}>
         <ul style={styles.ul}>
           <li style={styles.li}>
-            <Link to='/'style={styles.a}>Home</Link>
+            <Link to='/'style={styles.a}>HOME</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/AnimeList'style={styles.a}>Anime List</Link>
+            <Link to='/AnimeList'style={styles.a}>ANIME LIST</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/Manga'style={styles.a}>News</Link>
+            <Link to='/News'style={styles.a}>NEWS</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/Contacto'style={styles.a}>Contacto</Link>
+            <Link to='/Contacto'style={styles.a}>CONTACTO</Link>
           </li>
         </ul>
       </nav>

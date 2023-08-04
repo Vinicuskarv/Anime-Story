@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import IconsCloseX from '../components/img/ImgPng/CloseX.png';
 import './Card.css';
 
-function Card({ foto, paragrafo, titulo, episodios }) {
+function Card({ foto, paragrafo, titulo, episodios, linkInfo}) {
   const minhaDivRef = useRef(null);
 
   useEffect(() => {
@@ -53,6 +53,7 @@ function Card({ foto, paragrafo, titulo, episodios }) {
         />
         <h2>{titulo}</h2>
         <p>{paragrafo}</p>
+        <a href={linkInfo} className='LinkInfo'>KNOW MORE</a>
       </div>
     </div>
   );

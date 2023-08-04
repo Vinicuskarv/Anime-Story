@@ -28,7 +28,7 @@
 .ContainerCard:hover{
     width: 301px;
     height: 351px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.388),5px 5px 10px rgba(0, 0, 0, 0.388)
 }
 .row{
     --bs-gutter-x: 0;
