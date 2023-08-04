@@ -7,13 +7,74 @@
     display: flex;
 }
 .CampoInfoContacto{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.235);
-    padding: 30px;
+    position: fixed;
+    background-color: rgba(176, 100, 85, 0.623);
+    padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: -5px -5px 10px rgba(112, 112, 112, 0.411),5px 5px 10px rgba(112, 112, 112, 0.411);
-
-    top: 50%;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.388),5px 5px 10px rgba(255, 255, 255, 0.411);
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+.IconAnimation:hover {
+    animation: rotateInfinitely 3s linear infinite;
+    transform: rotate(360deg); 
+}
+@keyframes rotateInfinitely {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(30deg);
+    }
+    70% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.HoverAnimation:hover{
+    color: brown;
+}
+@media screen and (max-width:1020px) {
+    .HoverAnimation{
+        display: none;
+    }
+}
+@media screen and (max-width:780px) {
+    .KeigoTakamiImg{
+        position: relative;
+        height: 500px;
+        left: 80px;
+        top: 70px;
+    }
+    .CampoInfoContacto{
+        width: 500px;
+    }
+}
+@media screen and (max-width:520px) {
+    .CampoInfoContacto{
+        width: 400px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:520px) {
+    .CampoInfoContacto{
+        width: 340px;
+    }
+    .KeigoTakamiImg{
+        height: 450px;
+        top: 70px;
+    }
+}
+@media screen and (max-width:520px) {
+    .CampoInfoContacto{
+        width: 300px;
+    }
+    .KeigoTakamiImg{
+        height: 380px;
+        left: 30px;
+    }
 }
