@@ -33,6 +33,7 @@
     .headerImgCharacters{
         width: 600px;
         left: 0;
+
     }
 }
 @media screen and (max-width:550px) {

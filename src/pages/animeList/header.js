@@ -3,11 +3,11 @@ import Haikuu from '../../components/img/Haikuu.jpg';
 import DemonSlayer from '../../components/img/DemonSlayer.jpg';
 import FamiliaForger from '../../components/img/FamíliaForger.jpg';
 import AttackTitan from '../../components/img/AttackTitan.jpg';
-import JujutsuKaisen from '../../components/img/JujutsuKaisen.jpg'
-import HunterHunter from '../../components/img/HunterHunter.jpg'
-import Naruto from '../../components/img/Naruto.jpg'
+import JujutsuKaisen from '../../components/img/JujutsuKaisen.jpg';
+import HunterHunter from '../../components/img/HunterHunter.jpg';
+import Naruto from '../../components/img/Naruto.jpg';
 
-import Card from '../../components/Card'
+import Card from '../../components/Card';
 import './animeList.css';
 
 function Header() {
