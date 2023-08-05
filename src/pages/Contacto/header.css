@@ -7,15 +7,16 @@
     display: flex;
 }
 .CampoInfoContacto{
-    position: fixed;
+    position: absolute;
     background-color: rgba(176, 100, 85, 0.623);
     padding: 20px 30px;
     border-radius: 10px;
     box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.388),5px 5px 10px rgba(255, 255, 255, 0.411);
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: aliceblue;
+
 }
 .IconAnimation:hover {
     animation: rotateInfinitely 3s linear infinite;
@@ -48,10 +49,13 @@
         position: relative;
         height: 500px;
         left: 80px;
-        top: 70px;
+        top: 90px;
     }
     .CampoInfoContacto{
         width: 500px;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 @media screen and (max-width:520px) {

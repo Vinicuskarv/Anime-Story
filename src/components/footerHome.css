@@ -1,0 +1,32 @@
+.container-fluid{
+    position: relative;
+    display: flex;
+    background-color: rgb(120, 36, 36);
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    bottom: -445px;
+}
+.container-fluid strong:hover{
+    color: rgb(152, 95, 95);
+}
+@media screen and (max-width:1000px) {
+    .container-fluid{
+        bottom: -350px;
+    }
+}
+@media screen and (max-width:655px) {
+    .container-fluid{
+        bottom: -370px;
+    }
+}
+@media screen and (max-width:360px) {
+    .container-fluid{
+        bottom: -250px;
+    }
+}
+@media screen and (max-width:550px) {
+    .container-fluid{
+        bottom: -300px;
+    }
+}

@@ -1,16 +1,16 @@
 .headerImgCharacters{
     width: 1100px;
     left: -250px;
-    bottom: -10px;
-    position: fixed;
+    top: 160px;
+    position: absolute;
     background-size: cover;
 }
 .cardInfo{
     position: relative;
     top: 160px;
     display: inline;
-    width: 450px;
-    left: 55%;
+    width: 440px;
+    left: 53%;
     font-family: 'REM', sans-serif;
 }
 
@@ -18,11 +18,12 @@
     .headerImgCharacters{
         width: 800px;
         left: -200px;
+        top: 200px;
     }
     .cardInfo{
         font-size:15px;
         width: 400px;
-        left: 40%;
+        left: 45%;
     }
 }
 @media screen and (max-width:770px) {
@@ -31,9 +32,15 @@
         left:20%;
     }
     .headerImgCharacters{
-        width: 600px;
-        left: 0;
+        width: 500px;
+        left: 10px;
+        top: 350px;
 
+    }
+}
+@media screen and (max-width:700px) {
+    .headerImgCharacters{
+        top: 330px;
     }
 }
 @media screen and (max-width:550px) {
@@ -43,8 +50,15 @@
         left:15%;
     }
     .headerImgCharacters{
-        width: 600px;
-        left: -100px;
+        width: 370px;
+        margin-left: auto;
+        top: 340px;
+    }
+}
+@media screen and (max-width:400px) {
+    .headerImgCharacters{
+        width: 350px;
+        top: 340px;
     }
 }
 @media screen and (max-width:380px) {
@@ -53,6 +67,11 @@
         left:10%;
     }
     .headerImgCharacters{
-        width: 550px;
+        width: 320px;
+    }
+}
+@media screen and (max-width:340px) {
+    .headerImgCharacters{
+        width: 300px;
     }
 }

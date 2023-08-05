@@ -16,7 +16,7 @@ function NavBar() {
             <Link to='/News'style={styles.a}>NEWS</Link>
           </li>
           <li style={styles.li}>
-            <Link to='/Contacto'style={styles.a}>CONTACTO</Link>
+            <Link to='/Contacto'style={styles.a}>CONTACT</Link>
           </li>
         </ul>
       </nav>

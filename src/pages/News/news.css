@@ -6,3 +6,11 @@
     margin: 10px;
     color: #000;
 }
+.grid{
+    justify-content:space-around;
+}
+@media screen and (max-width:780px) {
+    .container{
+        top:110px;
+    }
+}

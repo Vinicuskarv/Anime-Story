@@ -53,7 +53,7 @@ function Card({ foto, paragrafo, titulo, episodios, linkInfo}) {
         />
         <h2>{titulo}</h2>
         <p>{paragrafo}</p>
-        <a href={linkInfo} className='LinkInfo'>KNOW MORE</a>
+        <a href={linkInfo} className='LinkInfo'>Saiba mais</a>
       </div>
     </div>
   );

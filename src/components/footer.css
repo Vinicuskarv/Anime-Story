@@ -1,0 +1,13 @@
+.footer{
+    position: relative;
+    display: flex;
+    background-color: rgb(120, 36, 36);
+    align-content: center;
+    justify-content: center;
+    bottom: 0;
+    margin-top: 120px;
+    padding: 50px;
+}
+.footerstrong:hover{
+    color: rgb(152, 95, 95);
+}
