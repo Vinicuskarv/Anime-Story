@@ -1,3 +1,4 @@
+import React from 'react';
 import ImagemBackground from './ImagemBackgroundNaruto.jpg';
 import Home from './pages/Home/PageHome';
 import AnimeList from './pages/AnimeList/PageAnimelist';
