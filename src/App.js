@@ -1,6 +1,6 @@
 import React from 'react';
 import ImagemBackground from './ImagemBackgroundNaruto.jpg';
-import Home from './pages/home/PageHome.js';
+import Home from './pages/home/PageHome';
 import AnimeList from './pages/animeList/PageAnimelist';
 import Contacto from './pages/contacto/PageContacto';
 import News from './pages/news/PageNews';
