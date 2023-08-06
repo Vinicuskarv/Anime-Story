@@ -1,5 +1,5 @@
 import BokuHeroAcademia from '../../components/img/BokuHeroAcademia.jpg';
-import Haikuu from '../../components/img/Haikuu.jpg';
+import Haikyuu from '../../components/img/Haikuu.jpg';
 import DemonSlayer from '../../components/img/DemonSlayer.jpg';
 import FamiliaForger from '../../components/img/FamíliaForger.jpg';
 import AttackTitan from '../../components/img/AttackTitan.jpg';
@@ -14,8 +14,8 @@ function Header() {
   return (
       <div className="row row-cols-2 row-cols-sm-4 row-cols-md-6 scroll-container">
         <Card
-          foto = {Haikuu}
-          titulo = "Haikuu"
+          foto = {Haikyuu}
+          titulo = "Haikyuu"
           paragrafo = "Shouyou Hinata assiste a um jogo da Escola Karasuno no campeonato nacional de vôlei e fica fascinado pelo esporte."
           episodios = "Episódios: 60"
           linkInfo = "https://pt.wikipedia.org/wiki/Haiky%C5%AB!!"
