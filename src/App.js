@@ -2,8 +2,8 @@ import React from 'react';
 import ImagemBackground from './ImagemBackgroundNaruto.jpg';
 import Home from './pages/home/PageHome';
 import AnimeList from './pages/animeList/PageAnimelist';
-import Contacto from './pages/contacto/PageContacto';
-import News from './pages/news/PageNews';
+import Contacto from './pages/Contacto/PageContacto';
+import News from './pages/News/PageNews';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
