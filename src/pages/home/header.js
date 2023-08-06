@@ -1,5 +1,5 @@
 import characters from '../../components/img/ImgPng/CharactersGroup.png';
-import './home.css'
+import './home.css';
 import { Link } from 'react-router-dom';
 
 function Header() {
